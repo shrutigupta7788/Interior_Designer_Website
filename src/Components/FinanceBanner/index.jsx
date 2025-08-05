@@ -55,7 +55,7 @@ const FinanceBanner = () => {
       </div>
 
       {/* Center Text */}
-      <h1 className="text-5xl md:text-7xl text-red-600 font-bold text-center z-10">
+      <h1 className="text-5xl md:text-7xl text-red-600 font-bold text-center">
         Expert Interior<br />  Design Solutions
       </h1>
     </div>

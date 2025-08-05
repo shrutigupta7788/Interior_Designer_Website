@@ -1,29 +1,28 @@
-import React from 'react';
+import React from "react";
 
 const TestimonialsSection = () => {
   return (
     <div
       className="relative bg-cover bg-center min-h-screen flex flex-col items-center justify-center px-6"
       style={{
-        backgroundImage:
-          "url('src/assets/Images/Images/Accenture blr(1).jpg')",
+        backgroundImage: "url('src/assets/Images/Images/Accenture blr(1).jpg')",
       }}
     >
       {/* Overlay (optional) */}
       <div className="absolute inset-0 bg-black/30 z-0"></div>
 
       {/* Heading */}
-      <h1 className="text-black text-4xl md:text-6xl font-semibold z-10 text-center mb-10">
+      <h1 className="text-black text-4xl md:text-6xl font-semibold text-center mb-10">
         Hear it from our clients
       </h1>
 
       {/* Testimonial Card */}
-      <div className="z-10 w-full max-w-md bg-white/10 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg">
+      <div className="w-full max-w-md bg-white/10 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg">
         <p className="text-sm font-semibold mb-2">Recommended</p>
         <p className="text-sm mb-4">
           Very happy with the app. Does what it says, simple payments and
-          transactions. Quick account verification and withdrawals. 24/7
-          support available
+          transactions. Quick account verification and withdrawals. 24/7 support
+          available
         </p>
 
         {/* Users */}
@@ -42,12 +41,12 @@ const TestimonialsSection = () => {
         </div>
       </div>
 
-      <div className="z-10 w-full max-w-md bg-white/10 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg">
+      <div className="w-full max-w-md bg-white/10 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg">
         <p className="text-sm font-semibold mb-2">Recommended</p>
         <p className="text-sm mb-4">
           Very happy with the app. Does what it says, simple payments and
-          transactions. Quick account verification and withdrawals. 24/7
-          support available
+          transactions. Quick account verification and withdrawals. 24/7 support
+          available
         </p>
 
         {/* Users */}
@@ -66,13 +65,12 @@ const TestimonialsSection = () => {
         </div>
       </div>
 
-
-      <div className="z-10 w-full max-w-md bg-white/10 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg">
+      <div className="w-full max-w-md bg-white/10 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg">
         <p className="text-sm font-semibold mb-2">Recommended</p>
         <p className="text-sm mb-4">
           Very happy with the app. Does what it says, simple payments and
-          transactions. Quick account verification and withdrawals. 24/7
-          support available
+          transactions. Quick account verification and withdrawals. 24/7 support
+          available
         </p>
 
         {/* Users */}
@@ -90,8 +88,6 @@ const TestimonialsSection = () => {
           <p className="text-sm">Leonie A.</p>
         </div>
       </div>
-
-      
     </div>
   );
 };
