@@ -22,14 +22,14 @@ const ServiceSection = () => {
       <div className="flex-1 max-w-xl space-y-6">
         {/* First Image */}
         <img
-          src="src/assets/Images/Images/CLTO 3(1).JPG"
+          src="https://res.cloudinary.com/dbqgtkyyq/image/upload/v1754409585/BLR_LOUNGE_2_vvqrdi.jpg"
           alt="Interior 1"
           className="rounded-xl shadow-lg object-cover w-full h-auto"
         />
 
         {/* Second Image */}
         <img
-          src="src/assets/Images/Images/DYP 1.jpg"
+          src="https://res.cloudinary.com/dbqgtkyyq/image/upload/v1754409586/CLTO_3_1_xykfog.jpg"
           alt="Interior 2"
           className="rounded-xl shadow-lg object-cover w-full h-auto"
         />

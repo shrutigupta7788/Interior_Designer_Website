@@ -6,7 +6,7 @@ const FinanceBanner = () => {
       {/* Background Grid of Cards */}
       <div className="absolute top-10 left-10 w-80 h-70 rounded-xl overflow-hidden">
         <img
-          src="src/assets/Images/Images/0b53052d-8b37-4ce6-9119-661b6f528830.JPG"
+          src="https://res.cloudinary.com/dbqgtkyyq/image/upload/v1754409594/IMG_1493_wbswro.jpg"
           alt="person-1"
           className="w-full h-full object-cover rounded-xl"
         />
@@ -32,7 +32,7 @@ const FinanceBanner = () => {
 
       <div className="absolute bottom-20 right-10 w-80 h-70 rounded-xl overflow-hidden">
         <img
-          src="src/assets/Images/Images/4f13162b-b2c2-4645-9380-61ef848342ad(1).JPG"
+          src="https://res.cloudinary.com/dbqgtkyyq/image/upload/v1754409590/DYP_1_2_y6x6mm.jpg"
           alt="person-2"
           className="w-full h-full object-cover rounded-xl"
         />

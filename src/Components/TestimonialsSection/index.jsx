@@ -5,7 +5,7 @@ const TestimonialsSection = () => {
     <div
       className="relative bg-cover bg-center min-h-screen flex flex-col items-center justify-center !mt-20"
       style={{
-        backgroundImage: "url('src/assets/Images/Images/Accenture blr(1).jpg')",
+        backgroundImage: "url('https://res.cloudinary.com/dbqgtkyyq/image/upload/v1754409583/Accenture_blr_1_qldlqs.jpg')",
       }}
     >
       {/* Overlay (optional) */}
