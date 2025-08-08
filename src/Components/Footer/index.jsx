@@ -2,16 +2,16 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white !px-13 md:px-20 pt-24 pb-12">
+    <footer className="bg-black text-white !px-13 md:px-20 pt-24 pb-12 ">
       {/* Top Section */}
-      <div className="max-w-7xl mx-auto !mb-1">
+      <div className="max-w-9xl">
         {/* Heading */}
-        <h1 className="text-[52px] md:text-[100px] font-bold leading-none tracking-tight text-gray-300">
+        <h1 className="text-[52px] md:text-[100px] font-bold leading-none tracking-tight text-gray-300 ">
           aaaaaaaaaaaaaaaaaaaaaaa
         </h1>
 
         {/* Content Grid */}
-        <div className="!mt-30 grid grid-cols-1 md:grid-cols-4 gap-10">
+        <div className=" grid grid-cols-1 md:grid-cols-4 gap-10 !mt-12" >
           {/* Logo & Name */}
           <div className="space-y-6">
             <div className="flex items-center space-x-4">

@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceSection = () => {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col md:flex-row items-center justify-between px-8 md:px-24 py-20">
+    <div className="!px-50 min-h-screen bg-black text-white flex flex-col md:flex-row items-center justify-between md:px-24 py-20 !mt-20">
       {/* LEFT SIDE TEXT */}
       <div className="flex-1 mb-12 md:mb-0">
         <p className="text-white/70 text-sm mb-3">Services</p>

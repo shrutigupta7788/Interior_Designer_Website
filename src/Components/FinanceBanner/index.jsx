@@ -2,7 +2,7 @@ import React from 'react';
 
 const FinanceBanner = () => {
   return (
-    <div className="relative flex items-center justify-center min-h-screen bg-white overflow-hidden px-4">
+    <div className="relative flex items-center justify-center min-h-screen bg-black overflow-hidden px-4">
       {/* Background Grid of Cards */}
       <div className="absolute top-10 left-10 w-80 h-70 rounded-xl overflow-hidden">
         <img
@@ -55,7 +55,7 @@ const FinanceBanner = () => {
       </div>
 
       {/* Center Text */}
-      <h1 className="text-5xl md:text-7xl text-red-600 font-bold text-center">
+      <h1 className="text-5xl md:text-7xl text-red-600 font-bold text-center ">
         Expert Interior<br />  Design Solutions
       </h1>
     </div>

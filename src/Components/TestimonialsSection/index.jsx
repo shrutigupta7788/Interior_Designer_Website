@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialsSection = () => {
   return (
     <div
-      className="relative bg-cover bg-center min-h-screen flex flex-col items-center justify-center px-6"
+      className="relative bg-cover bg-center min-h-screen flex flex-col items-center justify-center !mt-20"
       style={{
         backgroundImage: "url('src/assets/Images/Images/Accenture blr(1).jpg')",
       }}

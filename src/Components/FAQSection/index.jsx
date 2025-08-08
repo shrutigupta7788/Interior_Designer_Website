@@ -17,7 +17,7 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="bg-black text-white min-h-screen px-6 md:px-24 py-20 flex flex-col md:flex-row justify-between gap-5">
+    <div className="!px-50 bg-black text-white min-h-screen  md:px-24 py-20 flex flex-col md:flex-row justify-between gap-2 !mt-25">
       
       {/* Left Title */}
       <div className="md:w-1/2 mb-12 md:mb-0 ">
@@ -35,7 +35,7 @@ const FAQSection = () => {
             className="border-b border-white/10 pb-4 cursor-pointer"
             onClick={() => toggle(index)}
           >
-            <div className="flex justify-between items-center !mt-6">
+            <div className="flex justify-between items-center ">
               <p className="text-white text-sm md:text-base">{item.question}</p>
               <span className="text-white/70 transition-transform duration-300 transform !mt-10" 
                 style={{
